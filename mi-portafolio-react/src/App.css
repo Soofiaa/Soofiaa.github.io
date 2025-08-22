@@ -1,0 +1,53 @@
+:root {
+  --color-background-main: #d3d2da; 
+  --color-background-secondary: #e5e0e0;
+  --color-text-primary: #333;
+  --color-text-secondary: #666;
+  --color-accent-text: #5f4c4c;
+  --color-button: #e8c4c7;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background-main);
+  color: var(--color-text-primary);
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-container {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+  /* Centra el contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-container {
+    background-color: var(--color-background-secondary);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Centra el contenido horizontalmente y lo organiza en columna */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

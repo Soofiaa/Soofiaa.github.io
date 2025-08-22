@@ -1,0 +1,15 @@
+.cabecera {
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.cabecera h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+.cabecera-titulo {
+  font-size: 1.5em;
+  color: #555;
+}
